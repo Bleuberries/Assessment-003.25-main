@@ -1,2 +1,4 @@
 # Assessment-003.25
+Assignment 3: Due: 5/15 (RULES): Player Character: The player operates a character within a world Player States: The player can enter a state where they control differently Maybe they can be stunned and can’t do anything for a second Maybe when they attack they can’t do anything until the attack finishes Maybe when they jump they can enter a gliding state where they control differently Maybe they have three guns they can toggle between Multi-Modal NPCS: There are NPCs that act differently at different times Maybe they stand around until the PC gets too close, then run at them Maybe after you give them a gift they say “Hi!” when you pass by them Maybe when you attack them they get stunned for a second Also you can add anything else you can think of, but be sure you can make it in 6 weeks
+https://itch.io/jam/ccny-game112-tth-project-3
 
