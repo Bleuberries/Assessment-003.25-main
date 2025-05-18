@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
    public PlayerController player; 
-   public NPCController npc; 
+   public NPCController[] npcs; // now an array of NPCs
 
    public float timeLimit = 5f; 
    private float timer; 
@@ -28,9 +28,14 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        npc.ChangeState();
-        player.currentState = PlayerController.PlayerState.WaitingInput;
-        ResetTimer();
+       
+       foreach (NPCController npc in npcs)
+       {
+            npc.ChangeState();
+       }
+
+       player.currentState = PlayerController.PlayerState.WaitingInput;
+       ResetTimer();
     }
 
     public void ResetTimer()
